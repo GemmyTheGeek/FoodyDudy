@@ -31,7 +31,7 @@ thaimenu=[
 
 engmenu=[
 "Chicken Green Curry","Pork Curry With Morning Glory","Spicy Mixed Vegetable Soup","Pork Chopped Tofu Soup","Stuffed Bitter Gourd Broth",
-"Chicken Mussaman Curry","Sour Soup","Stir-Fried Chicken With Chestnuts","Omelet","Fried Egg",
+"Chicken Mussaman Curry","Sour Soup","Stir-Fried Chicken With Chestnuts","Omelette","Fried Egg",
 "Egg And Pork In Sweet Brown Sauce","Egg With Tamarind Sauce","Banana In Coconut Milk","Stir-Fried Rice Noodles With Chicken","Fried Cabbage With Fish Sauce",
 "Grilled River Prawn","Baked Prawns With Vermicelli","Coconut Rice Pancake","Mango Sticky Rice","Thai Pork Leg Stew",
 "Shrimp Paste Fried Rice","Curried Noodle Soup With Chicken","Fried Rice","Shrimp Fried Rice","Steamed Capon In Flavored Rice",
@@ -63,7 +63,7 @@ col1, col2 = st.beta_columns(2)
 ##################################
 # Col1
 ##################################
-col1.header("Your Food Image")
+col1.header("Your Thai Food Image")
 
 ##################################
 # Col2
@@ -87,7 +87,7 @@ else :
 st.sidebar.markdown('This app, Foody Dudy, was developed by Gemmy Somboontham and is a part of AI Builders Gen I, organized by VISTEC, Central Group and AIReaserch Thailand.')
 st.sidebar.write("AI Builders page [link](https://www.facebook.com/aibuildersx)")
 st.sidebar.write("FoodyDudy at Github [link](https://github.com/GemmyTheGeek/FoodyDudy)")
-st.sidebar.write("Checkout Colab [link](https://colab.research.google.com/github/GemmyTheGeek/FoodyDudy/inferencer.ipynb)")
+st.sidebar.write("Checkout Colab [link](https://colab.research.google.com/github/GemmyTheGeek/FoodyDudy/FoodyDudyFinale.ipynb)")
 st.sidebar.write("Support Me! [link](https://www.youtube.com/c/codingforkids?sub_confirmation=1)")
 
 st.text(' ')
@@ -102,4 +102,4 @@ with my_expander:
     'DuckDuckGo : Thank you, DuckDuckGo, for giving me most of my dataset for Foody Dudy.'
     'Heroku : Thankyou to Heroku for letting me load my app in a blink of an eye, and being free.'
     'Family : I also would like to thankyou my family for giving me support during this time.'
-    'Stackoverflow : I cant live without you.'
+    'BunBun : Thank you for being my caaaaat.'
