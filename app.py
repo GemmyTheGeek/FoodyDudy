@@ -102,4 +102,4 @@ with my_expander:
     'DuckDuckGo : Thank you, DuckDuckGo, for giving me most of my dataset for Foody Dudy.'
     'Heroku : Thankyou to Heroku for letting me load my app in a blink of an eye and free.'
     'Family : I would like to thank you my family for giving me support during this time.'
-    '[BunBun](https://www.youtube.com/watch?v=QWa3indn_84) : Thank you for being my caaaaat.'
+    '[BunBun](https://www.youtube.com/watch?v=QWa3indn_84) : Thank you for being my caaaaaat.'
