@@ -84,8 +84,9 @@ else :
 ##################################
 # sidebar
 ##################################
-st.sidebar.markdown('This app, Foody Dudy, was developed by Gemmy Somboontham and is a part of AI Builders Gen I, organized by VISTEC, Central Group and AIReaserch Thailand.')
+st.sidebar.markdown('This app, Foody Dudy, was developed by Phacharaphol Somboontham (Gemmy) and is a part of AI Builders Gen I, organized by VISTEC, Central Group and AIReaserch Thailand.')
 st.sidebar.write("AI Builders page [link](https://www.facebook.com/aibuildersx)")
+st.sidebar.write("Diary of a Foody Dudy [link](https://gemmythegeek.medium.com/overcome-your-fear-for-thai-food-with-foody-dudy-7ff6d7702b22)")
 st.sidebar.write("FoodyDudy at Github [link](https://github.com/GemmyTheGeek/FoodyDudy)")
 st.sidebar.write("Checkout Colab [link](https://colab.research.google.com/github/GemmyTheGeek/FoodyDudy/FoodyDudyFinale.ipynb)")
 st.sidebar.write("Support Me! [link](https://www.youtube.com/c/codingforkids?sub_confirmation=1)")
@@ -100,6 +101,6 @@ with my_expander:
     '[FastAI](https://course.fast.ai/) : Thank You, fastai, for giving me more knowledge on AI and Neural Networks; comparing my understanding of AI before I began the course compared to after the course is immeasurable.'
     'Google Colab : Thank you, Google team, for making Colab; because of Colab, I could code more smoothly since I am used to it.'
     'DuckDuckGo : Thank you, DuckDuckGo, for giving me most of my dataset for Foody Dudy.'
-    'Heroku : Thankyou to Heroku for letting me load my app in a blink of an eye and free.'
-    'Family : I would like to thank you my family for giving me support during this time.'
+    'Heroku : Thank you to Heroku for letting me load my app in a blink of an eye and for free!'
+    'Family : I also would like to thank you, my family, for giving me support during this time.'
     '[BunBun](https://www.youtube.com/watch?v=QWa3indn_84) : Thank you for being my caaaaaat.'
