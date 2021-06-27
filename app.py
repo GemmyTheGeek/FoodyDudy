@@ -88,7 +88,7 @@ st.sidebar.markdown('This app, Foody Dudy, was developed by Phacharaphol Somboon
 st.sidebar.write("AI Builders page [link](https://www.facebook.com/aibuildersx)")
 st.sidebar.write("Diary of a Foody Dudy [link](https://gemmythegeek.medium.com/overcome-your-fear-for-thai-food-with-foody-dudy-7ff6d7702b22)")
 st.sidebar.write("FoodyDudy at Github [link](https://github.com/GemmyTheGeek/FoodyDudy)")
-st.sidebar.write("Checkout Colab [link](https://colab.research.google.com/github/GemmyTheGeek/FoodyDudy/FoodyDudyFinale.ipynb)")
+st.sidebar.write("Checkout Colab [link](https://colab.research.google.com/github/GemmyTheGeek/FoodyDudy/blob/main/FoodyDoodyFinale.ipynb)")
 st.sidebar.write("Support Me! [link](https://www.youtube.com/c/codingforkids?sub_confirmation=1)")
 
 st.text(' ')
