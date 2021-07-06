@@ -13,7 +13,8 @@ image1 = Image.open('sidebar1.jpg')
 image2 = Image.open('menu1.jpg')
 image3 = Image.open('menu2.jpg')
 
-MODEL_URL = "https://github.com/GemmyTheGeek/FoodyDudy/raw/main/resnet34-10.pkl"
+#MODEL_URL = "https://github.com/GemmyTheGeek/FoodyDudy/raw/main/resnet34-10.pkl"
+MODEL_URL = "http://freelyblog.com/resnet34-10.pkl"
 urllib.request.urlretrieve(MODEL_URL, "model.pkl")
 learn_inf = load_learner('model.pkl', cpu=True)
 
@@ -31,7 +32,7 @@ thaimenu=[
 
 engmenu=[
 "Chicken Green Curry","Pork Curry With Morning Glory","Spicy Mixed Vegetable Soup","Pork Chopped Tofu Soup","Stuffed Bitter Gourd Broth",
-"Chicken Mussaman Curry","Sour Soup","Stir-Fried Chicken With Chestnuts","Omelette","Fried Egg",
+"Chicken Mussaman Curry","Sour Soup","Stir-Fried Chicken With Chestnuts","Omelet","Fried Egg",
 "Egg And Pork In Sweet Brown Sauce","Egg With Tamarind Sauce","Banana In Coconut Milk","Stir-Fried Rice Noodles With Chicken","Fried Cabbage With Fish Sauce",
 "Grilled River Prawn","Baked Prawns With Vermicelli","Coconut Rice Pancake","Mango Sticky Rice","Thai Pork Leg Stew",
 "Shrimp Paste Fried Rice","Curried Noodle Soup With Chicken","Fried Rice","Shrimp Fried Rice","Steamed Capon In Flavored Rice",
@@ -63,7 +64,7 @@ col1, col2 = st.beta_columns(2)
 ##################################
 # Col1
 ##################################
-col1.header("Your Thai Food Image")
+col1.header("Your Food Image")
 
 ##################################
 # Col2
@@ -84,11 +85,10 @@ else :
 ##################################
 # sidebar
 ##################################
-st.sidebar.markdown('This app, Foody Dudy, was developed by Phacharaphol Somboontham (Gemmy) and is a part of AI Builders Gen I, organized by VISTEC, Central Group and AIReaserch Thailand.')
+st.sidebar.markdown('This app, Foody Dudy, was developed by Gemmy Somboontham and is a part of AI Builders Gen I, organized by VISTEC, Central Group and AIReaserch Thailand.')
 st.sidebar.write("AI Builders page [link](https://www.facebook.com/aibuildersx)")
-st.sidebar.write("Diary of a Foody Dudy [link](https://gemmythegeek.medium.com/overcome-your-fear-for-thai-food-with-foody-dudy-7ff6d7702b22)")
 st.sidebar.write("FoodyDudy at Github [link](https://github.com/GemmyTheGeek/FoodyDudy)")
-st.sidebar.write("Checkout Colab [link](https://colab.research.google.com/github/GemmyTheGeek/FoodyDudy/blob/main/FoodyDoodyFinale.ipynb)")
+st.sidebar.write("Checkout Colab [link](https://colab.research.google.com/github/GemmyTheGeek/FoodyDudy/inferencer.ipynb)")
 st.sidebar.write("Support Me! [link](https://www.youtube.com/c/codingforkids?sub_confirmation=1)")
 
 st.text(' ')
@@ -99,8 +99,8 @@ with my_expander:
     '[P Charin](https://github.com/cstorm125/) : Thank You so much for your help, tips, and advice because if it weren’t for you, my model wouldn’t be the way it is today.'
     '[P Joy](https://th.linkedin.com/in/nattakarnphaphoom), [UncleEngineer](https://www.facebook.com/UncleEngineer), [P A](https://www.facebook.com/kanes.sumetpipat/) : Even though we didn’t talk too much during this program, I still am thankful for your incredible encouragement and support.'
     '[FastAI](https://course.fast.ai/) : Thank You, fastai, for giving me more knowledge on AI and Neural Networks; comparing my understanding of AI before I began the course compared to after the course is immeasurable.'
-    'Google Colab : Thank you, Google team, for making Colab; because of Colab, I could code more smoothly since I am used to it.'
+    'Google Colab : Thank you, Google team, for making Colab; because of Colab, I was able to code more smoothly since I am used to it.'
     'DuckDuckGo : Thank you, DuckDuckGo, for giving me most of my dataset for Foody Dudy.'
-    'Heroku : Thank you to Heroku for letting me load my app in a blink of an eye and for free!'
-    'Family : I also would like to thank you, my family, for giving me support during this time.'
-    '[BunBun](https://www.youtube.com/watch?v=QWa3indn_84) : Thank you for being my caaaaaat.'
+    'Heroku : Thankyou to Heroku for letting me load my app in a blink of an eye, and being free.'
+    'Family : I also would like to thankyou my family for giving me support during this time.'
+    'Stackoverflow : I cant live without you.'
